@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>  
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,10 +24,13 @@
         .socials a { color: #db9abf; font-size: 20px; margin: 0 6px; display: inline-block; transition: color 0.3s; padding: 4px 10px; }
         .socials a:hover { color: #35252b; }
 
-        /* Target the specific Twitter link */
+        /* Make Ko-Fi and Twitter's clickable area equal and reduce space between them */
+        .socials a[href="https://ko-fi.com/moxiu"],
         .socials a[href="https://x.com/moxiudev"] {
-            padding-left: 4px; /* Reduce left padding to make it closer to Steam */
-            padding-right: 4px; /* Reduce right padding */
+            padding-left: 10px; /* Adjust padding for both Ko-Fi and Twitter to make them the same */
+            padding-right: 10px; /* Same padding on both sides */
+            margin-left: 0; /* Remove any left margin */
+            margin-right: 0; /* Remove any right margin */
         }
 
         .socials .material-icons { vertical-align: middle; }
@@ -52,10 +55,17 @@
         <a href="https://steamcommunity.com/id/Moxiu-u7/" target="_blank">
             <span class="material-icons">games</span> Steam
         </a>
-        <a href="https://x.com/moxiudev" target="_blank">
-            <span class="material-icons">twitter</span> Twitter (X)
+        <!-- Ko-Fi link -->
+        <a href="https://ko-fi.com/moxiu" target="_blank">
+            <span class="material-icons">coffee</span> Ko-Fi
         </a>
-        <!-- Added GitHub link here -->
+        <!-- Twitter X link with SVG X logo -->
+        <a href="https://x.com/moxiudev" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 18L18 6M6 6l12 12"></path>
+            </svg> Twitter
+        </a>
+        <!-- GitHub link -->
         <a href="https://github.com/moxi-u7/" target="_blank">
             <span class="material-icons">code</span> GitHub
         </a>
