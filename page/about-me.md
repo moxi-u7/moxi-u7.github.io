@@ -33,8 +33,7 @@
 
 #### 🤝 Maintainership 🤝
 I currently maintain the following projects:
-- PixelOS (GSI) (archived)
-- treble_aosp
+- PixelOS (GSI)
 ---
 
 You can contact me at telegram on **[@moxi-u7](https://t.me/moxi_u7)** or on **[Discord](https://discord.com/users/1154823136710246441)**, you can also contact me via my email: `moxi-u7@onet.eu`
